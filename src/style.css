@@ -1,0 +1,257 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.post16{
+    background-image: url("./image/giraffee.jpg");
+    background-size: 100% 100%;
+    height: 86%;
+    margin: 5px;
+    border-radius: 8px;
+    position: relative;
+  
+   }
+  
+   .post15{
+    position: relative;
+    background-image: url("./image/elephant.jpg");
+    background-size: 100% 100%;
+    height: 86%;
+    margin: 5px;
+    border-radius: 8px;
+   }
+  
+   .post14{
+    position:relative ;
+    background-image: url("./image/giraffee.jpg");
+    background-size: 100% 100%;
+    height: 86%;
+    margin: 5px;
+    border-radius: 8px;
+   } 
+   
+   .post13{
+    position: relative;
+    background-image: url("./image/elephant.jpg");
+    background-size: 100% 100%;
+    height: 86%;
+    margin: 5px;
+    border-radius: 8px;
+   }
+   
+   .post12{
+    position: relative;
+    background-image: url("./image/monkeyy.jpg");
+    background-size: 100% 100%;
+    height: 86%;
+    margin: 5px;
+    border-radius: 8px;
+   }
+   
+   .post11{
+    position: relative;
+    background-image: url("./image/giraffee.jpg");
+    background-size: 100% 100%;
+    height: 86%;
+    margin: 5px;
+    border-radius: 8px;
+   }
+   
+   .post10{
+    position: relative;
+    background-image: url("./image/monkeyy.jpg");
+    background-size: 100% 100%;
+    height: 86%;
+    margin: 5px;
+    border-radius: 8px;
+   } 
+   
+   .post9{
+    position: relative;
+    background-image: url("./image/elephant.jpg");
+    background-size: 100% 100%;
+    height: 86%;
+    margin: 5px;
+    border-radius: 8px;
+   }
+   
+   .post8{
+    position: relative;
+    background-image: url("./image/monkeyy.jpg");
+    background-size: 100% 100%;
+    height: 86%;
+    margin: 5px;
+    border-radius: 8px;
+   } 
+   
+   .post7{
+    position: relative;
+    background-image: url("./image/elephant.jpg");
+    background-size: 100% 100%;
+    height: 86%;
+    margin: 5px;
+    border-radius: 8px;
+   } 
+
+   .post6{
+    position: relative;
+    background-image: url("./image/giraffee.jpg");
+    background-size: 100% 100%;
+    height: 86%;
+    margin: 5px;
+    border-radius: 8px;
+   } .post5{
+    position: relative;
+    background-image: url("./image/monkeyy.jpg");
+    background-size: 100% 100%;
+    height: 86%;
+    margin: 5px;
+    border-radius: 8px;
+   } .post4{
+    position: relative;
+    background-image: url("./image/elephant.jpg");
+    background-size: 100% 100%;
+    height: 86%;
+    margin: 5px;
+    border-radius: 8px;
+   } .post3{
+    background-image: url("./image/giraffee.jpg");
+    background-size: 100% 100%;
+    height: 86%;
+    margin: 5px;
+    position: relative;
+    border-radius: 8px;
+   } .post2{
+    background-image: url("./image/monkeyy.jpg");
+    background-size: 100% 100%;
+    height: 86%;
+    margin: 5px;
+    position: relative;
+    border-radius: 8px;
+    
+   } .post1{
+    background-image: url("./image/elephant.jpg");
+    width: 97%;
+    background-size: 100% 100%;
+    height: 86%;
+    margin: 5px;
+    position: relative;
+    border-radius: 8px;
+   }
+  
+   
+   .ad{
+    backdrop-filter: blur(5px);
+    height: 100%;
+    width:100%;
+    /* margin-left: 7px; */
+    background-color:#0004;
+    border-radius: 10px;
+   }
+  
+   .orangebg{
+    background-color: #93748A;
+   }
+  
+   .hh{
+    background-color: #9F9FAD;
+   }
+   .mom{
+    min-height:1200px;
+    background-color:white ;
+   }
+  
+
+  
+  
+   .de{
+    background-color: #93748A;
+   }
+  
+   .bg{
+    background-color:#9F9FAD;
+   }
+   .btn3{
+    display: none;
+   }
+    @media screen and (max-width:650px) {
+      .firstline{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 1fr 1fr;
+        height:540px;
+   
+  
+      }
+  
+      .secondline{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 1fr 1fr;
+      }
+  
+  
+    
+      .thirdline{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 1fr 1fr;
+      }
+  
+      
+     
+  
+      .fourthline{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 1fr 1fr;
+      }
+  
+      .bt1{
+        min-width: 40%;
+        min-height:30px;
+      }
+  
+  
+      .bt2{
+        min-width: 50%;
+        height:30px; 
+      }
+     
+      .time{
+        font-size: 23px;
+      }
+    
+  
+    .btn0{
+      display: grid;
+      grid-template-columns: 20% 80%;
+    }
+  
+  }
+  
+
+  
+  
+  
+  @media screen and (max-width:390px) {
+
+    .fourthline{
+      grid-template-columns: 1fr ;
+    }
+  
+    
+      .thirdline{
+        grid-template-columns: 1fr ;    
+      }
+  
+      .secondline{
+        grid-template-columns: 1fr ;
+      }
+  
+      .firstline{
+        grid-template-columns:1fr;
+      }
+  
+    
+  }
